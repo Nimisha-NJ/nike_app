@@ -1,7 +1,7 @@
-import React from 'react'
-const Button = () => {
+
+const Button = ({label , iconUrl}) => {
   return (
-    <div>Button</div>
+    <button>{label}</button>
   )
 }
 
